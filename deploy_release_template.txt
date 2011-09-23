@@ -1,0 +1,4 @@
+mvn deploy:deploy-file \
+  -DpomFile=PATH_TO_POM \
+  -Dfile=PATH_TO_JAR \
+  -Durl=file:releases
